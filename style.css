@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* RESET */
+// 1. Use a more-intuitive box-sizing model.
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLING */
+body {
+  background: #6d6e98;
+  background: -webkit-linear-gradient(181deg, #6d6e98 0%, #808a72 100%);
+  background: linear-gradient(181deg, #6d6e98 0%, #808a72 100%);
+
+  background-image: url('https://images.unsplash.com/photo-1629723515744-9ece210b6ddd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-size: cover;
+  background-position: top top;
+  background-repeat: no-repeat;
+
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 420px;
+  margin: auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.125rem;
+  text-align: center;
+  border: 3px solid #333;
+  background: #6d6e9885;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 3px solid rgba(255, 255, 255, 0.18);
+}
+
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.game-accumulated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.result-list {
+  margin: 0;
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.result {
+  padding: 0.75rem;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: underline;
+
+  background-color: #19191995;
+
+  border: 3px solid #313131;
+  border-radius: 50%;
+}
